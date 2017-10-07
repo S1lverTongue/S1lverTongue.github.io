@@ -1,0 +1,53 @@
+.silver-carousel {
+    width: 100%;
+    height: 100%;
+    perspective: 1200px;
+}
+
+.carousel-wheel {
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    height: 100%;
+}
+
+.carriage {
+    visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+
+.nav-right {
+    float: right;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+.nav-right:hover {
+    cursor: pointer;
+    box-shadow: 5px 0px 20px 0px grey;
+}
+
+.nav-left {
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+.nav-left:hover {
+    cursor: pointer;
+    box-shadow: -5px 0px 20px 0px grey;
+}
+
+.nav-icon {
+    margin-top: 450%;
+}
+
+.visibleCarriage {
+    visibility: visible;
+}
